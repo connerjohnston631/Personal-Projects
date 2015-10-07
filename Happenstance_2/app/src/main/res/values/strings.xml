@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Happenstance_2</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_update_location">UpdateLocationActivity</string>
+    <string name="title_activity_current_location">CurrentLocation</string>
+    <string name="title_activity_maps">Map</string>
+</resources>

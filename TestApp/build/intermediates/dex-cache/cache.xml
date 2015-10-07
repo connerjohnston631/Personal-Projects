@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/home/coontown/AndroidStudioProjects/TestApp/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.1.1/libs/internal_impl-22.1.1.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="9e070ad32b2700b0343e8e0cccc437733d91ba3a">
+        <dex dex="/home/coontown/AndroidStudioProjects/TestApp/app/build/intermediates/pre-dexed/debug/internal_impl-22.1.1-479ade8f16fea812d922b9af016f460d92a93b4c.jar" />
+    </item>
+    <item
+        jar="/home/coontown/Android/Sdk/extras/android/m2repository/com/android/support/support-annotations/22.1.1/support-annotations-22.1.1.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="01d051a6bfb1218b1db2d3a5af0480ac2c25c42a">
+        <dex dex="/home/coontown/AndroidStudioProjects/TestApp/app/build/intermediates/pre-dexed/debug/support-annotations-22.1.1-88920a35ff9ee7050b7d46404cf13c7ece1ace75.jar" />
+    </item>
+    <item
+        jar="/home/coontown/AndroidStudioProjects/TestApp/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.1.1/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="c95ba8152923e4872e86a82cfcba9a51c0214328">
+        <dex dex="/home/coontown/AndroidStudioProjects/TestApp/app/build/intermediates/pre-dexed/debug/classes-1b1f51b2025e33cb6f9b439ace3baefff6f1dfff.jar" />
+    </item>
+    <item
+        jar="/home/coontown/AndroidStudioProjects/TestApp/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="a3ff3c506644c820eb2bdf06e8339f72be578551">
+        <dex dex="/home/coontown/AndroidStudioProjects/TestApp/app/build/intermediates/pre-dexed/debug/classes-63d9e904baee8124ee1b0889df409d904305636c.jar" />
+    </item>
+
+</items>

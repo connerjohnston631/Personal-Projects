@@ -1,0 +1,79 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="com.danktankapps.coontown.mysqlpractice.Login">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:text="name"
+        android:layout_height="wrap_content"
+        android:id="@+id/textViewReg" />
+
+    <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/etNameReg"
+        android:layout_below="@+id/textViewReg"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:text="age"
+        android:layout_below="@+id/etNameReg"
+        android:layout_height="wrap_content"
+        android:id="@+id/textViewReg2" />
+
+    <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/etAgeReg"
+        android:layout_below="@+id/textViewReg2"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:text="username"
+        android:layout_height="wrap_content"
+        android:id="@+id/textViewReg3"
+        android:layout_below="@+id/etAgeReg"/>
+    <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/etUsernameReg"
+        android:layout_below="@+id/textViewReg3"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:text="password"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/etUsernameReg"
+        android:id="@+id/textViewReg4"
+        android:layout_alignRight="@+id/textViewReg3"
+        android:layout_alignEnd="@+id/textViewReg3" />
+    <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/etPasswordReg"
+        android:inputType="textPassword"
+        android:layout_below="@+id/textViewReg4"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="REGISTER"
+        android:id="@+id/buttonRegister"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+
+</RelativeLayout>

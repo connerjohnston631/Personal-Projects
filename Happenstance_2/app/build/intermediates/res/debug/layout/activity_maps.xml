@@ -1,0 +1,65 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:id="@+id/mapFrame"
+    tools:context=".MapsActivity"
+    android:background="#EB653F">
+
+
+<fragment xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="fill_parent"
+    android:id="@+id/map"
+    tools:context="com.danktankapps.coontown.happenstance_2.MapsActivity"
+    android:name="com.google.android.gms.maps.SupportMapFragment" />
+<Button
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Update Locations"
+    android:id="@+id/update"
+    android:layout_alignTop="@+id/map"
+    android:layout_alignParentLeft="true"
+    android:layout_alignParentStart="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Remove Location"
+        android:id="@+id/remove_location"
+        android:layout_below="@+id/update"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/status_et"
+        android:layout_below="@+id/remove_location"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="-"
+        android:id="@+id/zoom_out"
+        android:layout_alignTop="@+id/map"
+        android:layout_toRightOf="@+id/update"
+        android:layout_toEndOf="@+id/update" />
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="+"
+        android:id="@+id/zoom_in"
+        android:layout_above="@+id/remove_location"
+        android:layout_toRightOf="@+id/zoom_out"
+        android:layout_toEndOf="@+id/zoom_out" />
+
+</RelativeLayout><!-- From: file:/home/coontown/AndroidStudioProjects/Happenstance_2/app/src/main/res/layout/activity_maps.xml -->
